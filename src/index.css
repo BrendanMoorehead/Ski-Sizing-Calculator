@@ -1,0 +1,63 @@
+:root{
+  --main-padding: 2rem;
+  --light-gray: #d4d4d4;
+}
+*{
+  outline: 1px solid black;
+  margin: 0;
+}
+h1, h4, p, button{
+  font-family: 'Work Sans', sans-serif;
+}
+button{
+  background: none;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+.body{
+  display: flex;
+  justify-content: space-around;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--main-padding);
+}
+.data{
+  background-color: var(--light-gray);
+  width: 25vw;
+  border-radius: 1rem;
+}
+.userData{
+  display: flex;
+}
+/* Gender, Height, etc. */
+.userData--title{
+  margin-right: auto;
+  padding: var(--main-padding);
+}
+/* Content submitted by user for Gender, Height, etc. */
+.userData--content{
+  margin-left: auto;
+  padding: var(--main-padding);
+}
+.input{
+  background-color: var(--light-gray);
+  display: flex;
+  width: 45vw;
+  border-radius: 1rem;
+}
+
+.btn-page{
+  width: 15%;
+}
+.input-next{
+  margin-left: auto;
+}
+.gender{
+
+  margin-left: auto;
+  margin-right: auto;
+}
